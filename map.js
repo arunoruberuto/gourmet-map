@@ -126,13 +126,13 @@ function initializeMap() {
 async function loadMapData() {
     let foodData = [];
     try {
-        const response = await fetch('food.json');
-        if (!response.ok) throw new Error('Network response was not ok');
+        const response = await fetch('https://raw.githubusercontent.com/arunoruberuto/gourmet-map/refs/heads/main/food.json');
+        if (!response.ok) throw new Error('Network response was not OK');
         foodData = await response.json();
         addFoodMarkers(foodData);
     } catch (error) {
         console.error('Error loading data:', error);
-        document.body.innerHTML = '<p>Error loading data. Please check your food.json file or refresh the page.</p>';
+        document.body.innerHTML = '<p>Error loading data, please check your food.json file or refresh the page.</p>';
     }
 }
 
