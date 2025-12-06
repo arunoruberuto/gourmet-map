@@ -1,0 +1,175 @@
+:root {
+    --primary-color: #2a9d8f;
+    --secondary-color: #e76f51;
+    --background-gradient: linear-gradient(135deg, #ffffff 0%, #cce7e8 100%);
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #1a2525;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    flex-direction: column;
+    animation: fadeOutOverlay 1s ease forwards;
+    animation-delay: 3s;
+    pointer-events: none;
+}
+
+.overlay-title span {
+    display: inline-block;
+}
+
+#petal-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.overlay-title {
+    position: relative;
+    z-index: 2; 
+}
+
+.overlay-title {
+    font-size: 3rem;
+    animation: fadeInText 1.5s ease;
+}
+
+.loading-circle {
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+}
+.loading-path {
+    stroke-dasharray: 251;
+    stroke-dashoffset: 251;
+    animation: load 3s linear forwards;
+}
+@keyframes load {
+    to { stroke-dashoffset: 0; }
+}
+
+@keyframes fadeInText {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOutOverlay {
+    to { opacity: 0; visibility: hidden; }
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: var(--background-gradient);
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    opacity: 0; 
+}
+
+.leaflet-right .leaflet-control-zoom {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.leaflet-popup-content {
+    min-width: 200px;
+    font-size: 0.9rem;
+}
+
+
+/* ------------------ POPUP */
+
+.food-popup img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.food-popup button {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    min-width: 120px;
+    max-width: 150px;
+    margin: 8px auto; 
+    display: block; 
+    background: white; 
+    color: black; 
+    border: 1px solid black; 
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); 
+}
+
+.food-popup button:hover {
+    background: black; 
+    color: white; 
+    border-color: white; 
+}
+
+/* ------------------ MARKER */
+.custom-marker {
+    width: 30px;
+    height: 80px;
+    background: url('icon/map-marker.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.leaflet-popup {
+    transition: opacity 0.5s ease;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.leaflet-popup-tip {
+    width: 15px;
+    height: 15px;
+}
+
+.leaflet-popup-close-button {
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    right: 8px;
+    top: 8px;
+    transition: all 0.3s ease;
+}
+
+.leaflet-popup-close-button:hover {
+    background: var(--secondary-color);
+    transform: rotate(90deg);
+}
+
+/* ------------------ gsap */
+
+.reveal-circle {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: 1000;
+}

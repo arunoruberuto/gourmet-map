@@ -1,0 +1,149 @@
+1. Chilles Mexican Grill Harajuku
+
+	35.670568223186955, 139.70568482705053
+	https://maps.app.goo.gl/mwV42utZkZ5r2Ljp8
+
+2. こめらく 
+	
+	35.691270818700936, 139.70091312335316
+	https://maps.app.goo.gl/zaMeasSVZPb8yp2P9
+
+3. Abu Essam
+	
+	35.70429871954171, 139.73232315403848
+	https://maps.app.goo.gl/ogRyQTpFhYbAnfRw5
+
+4. 土州屋
+
+	33.55850208611334, 133.546465207946
+	https://maps.app.goo.gl/8BZACHYtiQ1Mu2HC6
+
+5. でべそ 帯屋町店
+
+	33.56093388785723, 133.53781776587502
+	https://maps.app.goo.gl/YWDwP3haUidoU3HH6
+
+6. ワンカルビ 大和郡山店
+
+	34.620763039136875, 135.76675408106905
+	https://maps.app.goo.gl/ekEzZfhh8z4dXT7s9
+
+7. 割烹 さか本
+
+	35.005627791105034, 135.77355033612687
+	https://maps.app.goo.gl/a3kFoe3T9pPaCrhGA
+
+8. レッドロブスター 上池台店
+
+	35.59969419786784, 139.70165823054705
+	https://maps.app.goo.gl/Nh3jVDfxi1cBm2m57
+
+9. PERFECT BEER LABO 東京
+
+	35.67719681223899, 139.80432090751904
+	https://maps.app.goo.gl/19bR8JAGpaesrdhh9
+
+10. Aangan
+
+	35.70147877227673, 139.70249478595204
+	https://maps.app.goo.gl/FPZ5PHjBcDHeK1M68
+
+11. 東京たらこスパゲティ
+
+	35.659833777377635, 139.7029623276495
+	https://maps.app.goo.gl/FYWvhnRkuziwtxcx5
+
+12. Merengue 渋谷店
+
+	35.65573170452623, 139.70456282645688
+	https://maps.app.goo.gl/dckoqXQ7cCj1pynZA
+
+13. トゥーブリッツバーガーバー
+
+	35.65011854563421, 139.63684342747598
+	https://maps.app.goo.gl/s832vGRLvBcXj7CR7
+
+14. 焼肉きんぐ 狛江店
+
+	35.629409640761594, 139.57633133108652
+	https://maps.app.goo.gl/SjcLQZtJmTiG4ii87
+
+15. MONDO モンド 相模大野
+
+	35.53162046514144, 139.43720662262862
+	https://maps.app.goo.gl/MMAuac6RheNXYpU39
+
+16. Pacific DRIVE-IN
+
+	35.304474015273584, 139.51359407514022
+	https://maps.app.goo.gl/gBdHoppEQQpiBtKt5
+
+17. 世界の朝ごはん TASTE THE WORLD
+
+	35.671532018215366, 139.76935316776795
+	https://maps.app.goo.gl/wbTmpswWRGf7dnmr9
+
+18. THE PIG & THE LADY
+
+	35.64642498603569, 139.70889192772688
+	https://maps.app.goo.gl/L1DqtdzJyZiYhQY2A
+
+19. PIZZA SLICE
+
+	35.65364114785774, 139.70505694514924
+	https://maps.app.goo.gl/faFAM21W3hh4wJY97
+	
+20. 鉄板和食とワイン 萬鉄
+
+	35.66488941491841, 139.7624973284086
+	https://maps.app.goo.gl/pJd4M954Y9qh4itQ9
+
+21. らーめん三ちゃん
+
+	34.68199373928764, 135.8226913428992
+	https://maps.app.goo.gl/M3fznhVEVirncxzR6
+
+22. 日本橋とんかつ 一 日本橋本店
+
+	35.686580160218845, 139.7753811915869
+	https://maps.app.goo.gl/79twC2Y6VrcTRQSX9
+
+23. ATTACHMENT
+
+	35.69720148232633, 139.69760395724762
+	https://maps.app.goo.gl/gq81uhRtp86XY2Gx5
+
+24. アウトバック ステーキハウス
+
+	35.62885985600117, 139.73566796805716
+	https://maps.app.goo.gl/891wmut8S7BDknFt8
+
+25. Starbucks Reserve Roastery Tokyo
+
+	35.64926511933094, 139.69256167999106
+	https://maps.app.goo.gl/z8w4AZq7yi91m4X2A
+
+26. Byuljan
+
+	35.701420656570185, 139.70247241377703
+	https://maps.app.goo.gl/x1gi2WtqhxLijURT8
+
+27. 来らっせ 本店
+
+	36.560682714361654, 139.88525669493194
+	https://maps.app.goo.gl/MVhq6bjbYYRGo6eCA
+
+28. スパゲッツ ダンディ
+
+	34.65907448107827, 133.91733575618744
+	https://maps.app.goo.gl/SsbVxaMPYmJP4aX76
+
+29. Tor Road Steak Aoyama
+
+	34.69373863031587, 135.18861318513126
+	https://maps.app.goo.gl/pnv9TTYm9z2uCBut5
+
+30. ハンバーグ＆ステーキ听 梅小路店
+
+	34.98929148918031, 135.74327673132993
+	https://maps.app.goo.gl/Gbgp2ZwXVk2gud4i7

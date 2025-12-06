@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfonso's グルメマップ！</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="map.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div id="overlay">
+        <canvas id="petal-canvas"></canvas>
+        <h1 class="overlay-title">
+            <span>ア</span><span>ル</span><span>フ</span><span>ォ</span><span>ン</span><span>ソ</span><span>の</span>
+            <span>グ</span><span>ル</span><span>メ</span><span>マ</span><span>ッ</span><span>プ</span><span>！</span>
+        </h1>
+        <div class="loading-circle">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="8" fill="none" class="loading-path" />
+            </svg>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>
